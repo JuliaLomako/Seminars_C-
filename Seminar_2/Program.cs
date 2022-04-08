@@ -90,3 +90,77 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите третье число");
 int numberС = Convert.ToInt32(Console.ReadLine());
 Proverka(numberA, numberB, numberС);
+
+
+
+
+//ЗАДАЧИ ИЗ ДОМАШНЕГО ЗАДАНИЯ
+
+
+// Задача 10: Напишите программу, которая принимает на вход трёхзначное 
+//число и на выходе показывает вторую цифру этого числа
+
+int NumB(int num1)
+{
+    int num2 = (num1 / 10);
+    int num3 = num2 % 10;
+   
+    return num3;
+}
+
+int number = new Random().Next(100, 1000);
+Console.WriteLine("из случайного числа " + number + " вторая цифра " + NumB(number));
+
+
+
+//Задача 13: Напишите программу, которая выводит третью цифру 
+//заданного числа или сообщает, что третьей цифры нет.
+
+void NumOrNum(int J)
+{
+if (J > 99)
+{
+   while (J > 999)
+   {
+        J - J / 10;
+    }
+    J - J % 10;
+    Console.WriteLine(J);
+}
+else
+{
+    Console.WriteLine("Третьей цифры нет");
+}
+}
+int number = new Random().Next(10, 999);
+Console.WriteLine("случайное число " + number + " max part is " + NumOrNum(number));
+
+
+//Задача 15: Напишите программу, которая принимает на вход цифру, 
+//обозначающую день недели, и проверяет, является ли этот день выходным.
+
+
+void DayNo (int day)
+{
+    if (day == 6 || day == 7)
+    {
+        Console.WriteLine("Выходной"); 
+    }
+
+    else
+    {
+        if (day > 7 || day <=0)
+        {
+             Console.WriteLine("Такого дня недели не существует");
+        }
+        else
+        {
+             Console.WriteLine("Будний день"); 
+        }
+    }
+      
+}
+
+Console.WriteLine("ВВедите цифру дня недели");
+int NumDay = Convert.ToInt32(Console.ReadLine());
+DayNo(NumDay);
