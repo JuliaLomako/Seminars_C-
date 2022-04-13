@@ -93,3 +93,84 @@ for (int i = 0; i < ((num / 2) + dlina); i++)
     if (i == num - i - 1) array2[i] = array[i];
     Console.Write(array2[i] + " ");
 }
+
+
+
+// ДОМАШНИЕ ЗАДАЧИ
+
+
+// Задача 1: Задайте массив заполненный случайными положительными трёхзначными числами. 
+// Напишите программу, которая покажет количество чётных чисел в массиве.
+
+int[] ArrayNum(int sizeA)
+{
+    int[] massiv = new int[sizeA];
+    for (int i = 0; i < sizeA; i++)
+    {
+        massiv[i] = new Random().Next(100, 300);
+        Console.Write(massiv[i] + " ");
+    }
+    return massiv;
+}
+
+Console.WriteLine("Введите размер массива: ");
+int size = Convert.ToInt16(Console.ReadLine());
+int[] arrySize = ArrayNum(size);
+int count = 0;
+for (int i = 0; i < size; i++)
+{
+    if (arrySize[i] % 2 == 0) count++;
+}
+Console.Write("Выведены все четные числа в массиве");
+
+
+// Задача 2: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, 
+// стоящих на нечётных позициях.
+
+
+int[] Array()
+{
+    Console.WriteLine("Введите размер массива ");
+    int arraySize = Convert.ToInt32(Console.ReadLine());
+    int[] arrayA = new int[arraySize];
+    for(int i = 0; i < arraySize; i++)
+        {
+        arrayA[i] = new Random().Next(1,100);
+        Console.Write(arrayA[i] + " ");
+        }
+    Console.WriteLine();        
+    return  arrayA; 
+}
+int[] arrayNum = Array();
+int sum = 0;
+for (int i = 0; i < 100; i += 2) sum += arrayNum[i];
+Console.WriteLine("Сумма нечетных элеменнотв равна  " + sum);
+
+
+// Задача 3: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+
+
+
+double[] Array()
+{
+    Console.WriteLine("Введите размер массива ");
+    int size = Convert.ToInt16(Console.ReadLine());
+    double[] num_array = new double[size];
+    for (int i = 0; i < size; i++)
+    {
+        num_array[i] = new Random().NextDouble();
+        Console.Write(num_array[i] + " ");
+    }
+    Console.WriteLine();
+    return num_array;
+}
+
+double[] array = Array();
+double max = double.MinValue, min = double.MaxValue;
+foreach (double number in array)
+{
+    Console.Write("{0} ", number);
+    if (number > max) max = number;
+    if (number < min) min = number;
+}
+Console.WriteLine($"разница между мин и макс равна " + (max - min));
