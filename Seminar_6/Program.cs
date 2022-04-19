@@ -19,7 +19,7 @@ void Triangle(int a, int b, int c)
     else
     {
         Console.WriteLine("нет");
-    } 
+    }
 
 }
 
@@ -38,15 +38,15 @@ Triangle(numA, numB, numC);
 void Binar(int numS)
 {
     string answer = "";
-    while(numS > 0)
+    while (numS > 0)
     {
-       answer = Convert.ToString(numS%2) + answer;
-       numS = numS / 2;
+        answer = Convert.ToString(numS % 2) + answer;
+        numS = numS / 2;
     }
     Console.WriteLine(answer);
 }
 Console.WriteLine("Введите число");
-int Num =Convert.ToInt32(Console.ReadLine());
+int Num = Convert.ToInt32(Console.ReadLine());
 Binar(Num);
 
 //Задача 3: Не используя рекурсию, выведите первые N чисел Фибоначчи. 
@@ -55,13 +55,13 @@ Binar(Num);
 
 void Fibbon(int numA)
 {
-    int[] array = new int [numA];
-    array[0] = 0; 
+    int[] array = new int[numA];
+    array[0] = 0;
     array[1] = 1;
     Console.Write("0 1 ");
     for (int i = 2; i < numA; i++)
     {
-        array[i] = array[i-1] + array[i-2];
+        array[i] = array[i - 1] + array[i - 2];
         Console.Write(array[i] + " ");
     }
 }
@@ -83,10 +83,10 @@ for (int i = 0; i < 3; i++)
 {
     for (int j = 0; j < 4; j++)
     {
-        matrix[i, j] = new Random().Next(0,10);
+        matrix[i, j] = new Random().Next(0, 10);
         Console.Write(matrix[i, j] + " ");
     }
-Console.WriteLine();
+    Console.WriteLine();
 }
 
 
@@ -118,20 +118,22 @@ CountNumbers(Numbers);
 //создав "рамку" из единиц, а внутреннюю зону матрицы заполнить нулями.
 
 
-void PrintMatrix(int[,] mArray)
-{
+//void PrintMatrix(int[,] mArray)
 
-    for (int i = 0; i < mArray.GetLength(0); i++)
+void PrintMatrix(int k, int m)
+{
+    int[,] matrix = new int[k, m];
+    for (int i = 0; i < k; i++)
     {
-        for (int j = 0; j < mArray.GetLength(1); j++)
+        for (int j = 0; j < m; j++)
         {
-            Console.Write($"{mArray[i, j]} ");
+            Console.Write($"{matrix[i, j]} ");
         }
         Console.WriteLine();
     }
 }
 
-
+/*
 int[,] FillMatrix(int rows, int columns)
 {
     int[,] newMatrix = new int[rows, columns];
