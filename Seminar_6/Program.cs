@@ -152,7 +152,7 @@ int rowsArray = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите кол-во столбцов для массива");
 int columnArray = Convert.ToInt32(Console.ReadLine());
 
-//не могу вывести на консоль :((
+//не могу вывести на консоль :(( 
 
 FillMatrix(rowsArray, columnArray);
 PrintMatrix(mArray);
