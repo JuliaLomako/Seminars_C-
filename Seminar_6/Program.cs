@@ -8,7 +8,7 @@
 //(Важно: Не может быть у треугольника такой стороны которая больше чем сумма двух других сторон) 
 //(ВАЖНО: Условие существаания треугольника: одна сторона всегла сторого меньше сумме двух других )
 
-
+/*
 
 void Triangle(int a, int b, int c)
 {
@@ -89,7 +89,7 @@ for (int i = 0; i < 3; i++)
     Console.WriteLine();
 }
 
-
+*/
 
 //ДОМАШНИЕ ЗАДАЧИ
 
@@ -97,19 +97,19 @@ for (int i = 0; i < 3; i++)
 //Задача 1: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
 
-int CountNumbers(int num)
-{
-    int count = 0;
-    for (int i = 0; i < num; i++)
-    {
-        if (i > 0) count++;
-    }
-    return count;
-}
+// int CountNumbers(int num)
+// {
+//     int count = 0;
+//     for (int i = 0; i < num; i++)
+//     {
+//         if (i > 0) count++;
+//     }
+//     return count;
+// }
 
-Console.WriteLine("Введите числа");
-int Numbers = Convert.ToInt32(Console.ReadLine());
-CountNumbers(Numbers);
+// Console.WriteLine("Введите числа");
+// int Numbers = Convert.ToInt32(Console.ReadLine());
+// CountNumbers(Numbers);
 
 
 
@@ -118,7 +118,7 @@ CountNumbers(Numbers);
 //создав "рамку" из единиц, а внутреннюю зону матрицы заполнить нулями.
 
 
-//void PrintMatrix(int[,] mArray)
+
 
 void PrintMatrix(int k, int m)
 {
@@ -133,7 +133,7 @@ void PrintMatrix(int k, int m)
     }
 }
 
-/*
+
 int[,] FillMatrix(int rows, int columns)
 {
     int[,] newMatrix = new int[rows, columns];
@@ -147,7 +147,6 @@ int[,] FillMatrix(int rows, int columns)
     }
 }
 
-
 Console.WriteLine("Введите кол-во строк для массива");
 int rowsArray = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите кол-во столбцов для массива");
@@ -156,8 +155,4 @@ int columnArray = Convert.ToInt32(Console.ReadLine());
 //не могу вывести на консоль :(( 
 
 FillMatrix(rowsArray, columnArray);
-PrintMatrix(mArray);
-
-
-
-
+PrintMatrix(matrix);
