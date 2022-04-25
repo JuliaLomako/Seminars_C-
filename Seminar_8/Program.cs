@@ -120,6 +120,42 @@ void MinSum (int[,] array)
 // 32(1,1,0) 23(1,1,1)
 
 
+ int[,,] TreeDimensionalArray(int matrix)
+ {
+     int num = 1;
+     Random rnd = new Random();
+     int number = rnd.Next(5, 10);
+     Console.WriteLine();
+     int[,,] array3D = new int[matrix, matrix, matrix];
+     for (int i = 0; i < matrix; i++)
+     {
+         for (int j = 0; j < matrix; j++)
+         {
+             for (int k = 0; k < matrix; k++)
+             {
+                 array3D[i, j, k] = number + number * num;
+                 num++;
+             }
+         }
+     }
+     return array3D;
+ }
+
+ void PrintTreeDimensionalArray (int[,,] array)
+ {
+
+     for (int i = 0; i < array.GetLength(0); i++)
+     {
+         for (int j = 0; j < array.GetLength(1); j++)
+         {
+             for (int k = 0; k < array.GetLength(2); k++)
+             {
+                 Console.Write(array[i, j, k] + $"({i},{j},{k}) ");
+             }
+             Console.WriteLine("");
+         }
+     }
+ }
 
 
 // Задача 4: Заполните спирально массив 4 на 4.
