@@ -10,8 +10,6 @@
 
 
 
-
-
 //ДОМАШНИЕ ЗАДАЧИ
 
 // Задача 1: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы 
@@ -88,27 +86,27 @@ PrintArray(matrix);
 // 5 2 6 7
 // Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка
 
-void MinSum (int[,] array)
- {
-     int minNumSum = int.MaxValue;
-     int result = 0;
-     for (int i = 0; i < array.GetLength(0); i++)
-     {
-         int summa = 0;
-         for (int j = 0; j < array.GetLength(1); j++)
-         {
-             summa += array[i, j];
+void MinSum(int[,] array)
+{
+    int minNumSum = int.MaxValue;
+    int result = 0;
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        int summa = 0;
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            summa += array[i, j];
 
-         }
-         Console.WriteLine($"строка {i + 1}: {summa}");
-         if (summa < minNumSum)
-         {
-             minNumSum = summa;
-             result = i;
-         }
-     }
-     Console.WriteLine($"строка с наименьшей суммой элементов {result + 1}.");
- }
+        }
+        Console.WriteLine($"строка {i + 1}: {summa}");
+        if (summa < minNumSum)
+        {
+            minNumSum = summa;
+            result = i;
+        }
+    }
+    Console.WriteLine($"строка с наименьшей суммой элементов {result + 1}.");
+}
 
 
 // Задача 3: Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, 
@@ -120,43 +118,42 @@ void MinSum (int[,] array)
 // 32(1,1,0) 23(1,1,1)
 
 
- int[,,] TreeDimensionalArray(int matrix)
- {
-     int num = 1;
-     Random rnd = new Random();
-     int number = rnd.Next(5, 10);
-     Console.WriteLine();
-     int[,,] array3D = new int[matrix, matrix, matrix];
-     for (int i = 0; i < matrix; i++)
-     {
-         for (int j = 0; j < matrix; j++)
-         {
-             for (int k = 0; k < matrix; k++)
-             {
-                 array3D[i, j, k] = number + number * num;
-                 num++;
-             }
-         }
-     }
-     return array3D;
- }
+int[,,] TreeDimensionalArray(int matrix)
+{
+    int num = 1;
+    Random rnd = new Random();
+    int number = rnd.Next(5, 10);
+    Console.WriteLine();
+    int[,,] array3D = new int[matrix, matrix, matrix];
+    for (int i = 0; i < matrix; i++)
+    {
+        for (int j = 0; j < matrix; j++)
+        {
+            for (int k = 0; k < matrix; k++)
+            {
+                array3D[i, j, k] = number + number * num;
+                num++;
+            }
+        }
+    }
+    return array3D;
+}
 
- void PrintTreeDimensionalArray (int[,,] array)
- {
+void PrintTreeDimensionalArray(int[,,] array)
+{
 
-     for (int i = 0; i < array.GetLength(0); i++)
-     {
-         for (int j = 0; j < array.GetLength(1); j++)
-         {
-             for (int k = 0; k < array.GetLength(2); k++)
-             {
-                 Console.Write(array[i, j, k] + $"({i},{j},{k}) ");
-             }
-             Console.WriteLine("");
-         }
-     }
- }
-
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            for (int k = 0; k < array.GetLength(2); k++)
+            {
+                Console.Write(array[i, j, k] + $"({i},{j},{k}) ");
+            }
+            Console.WriteLine("");
+        }
+    }
+}
 
 // Задача 4: Заполните спирально массив 4 на 4.
 // На выходе получается вот такой массив:
@@ -164,3 +161,26 @@ void MinSum (int[,] array)
 // 12 13 14 5
 // 11 16 15 6
 // 10 9 8 7
+
+
+int[,] GetSpire(int n)
+{
+    int[,] spireArray = new int[n, n];
+    int i = 0;
+    count = 1;
+    while (i < (int)n / 2)
+    {
+        for (j = i; j < n - 1 - i; j++)
+            spireArray[i, j] = count++;
+        for (n = i; n < n - 1 - i; n++)
+            spireArray[n, j] = count++;
+        for (k = j; k > i; k--)
+            spireArray[n, k] = count++;
+        for (m = n; m > i; m--)
+            spireArray[m, k] = count++;
+        i++;
+    }
+    if (n % 2 != 0) spireArray[i, i] = count;
+    return spireArray;
+}
+
