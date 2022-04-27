@@ -1,0 +1,15 @@
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/bin/Debug/net6.0/Seminar_9
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/bin/Debug/net6.0/Seminar_9.deps.json
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/bin/Debug/net6.0/Seminar_9.runtimeconfig.json
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/bin/Debug/net6.0/Seminar_9.dll
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/bin/Debug/net6.0/Seminar_9.pdb
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/obj/Debug/net6.0/Seminar_9.csproj.AssemblyReference.cache
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/obj/Debug/net6.0/Seminar_9.GeneratedMSBuildEditorConfig.editorconfig
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/obj/Debug/net6.0/Seminar_9.AssemblyInfoInputs.cache
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/obj/Debug/net6.0/Seminar_9.AssemblyInfo.cs
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/obj/Debug/net6.0/Seminar_9.csproj.CoreCompileInputs.cache
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/obj/Debug/net6.0/Seminar_9.dll
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/obj/Debug/net6.0/refint/Seminar_9.dll
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/obj/Debug/net6.0/Seminar_9.pdb
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/obj/Debug/net6.0/Seminar_9.genruntimeconfig.cache
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_9/obj/Debug/net6.0/ref/Seminar_9.dll
