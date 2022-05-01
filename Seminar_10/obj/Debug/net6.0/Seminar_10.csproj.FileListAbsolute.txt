@@ -1,0 +1,15 @@
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/bin/Debug/net6.0/Seminar_10
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/bin/Debug/net6.0/Seminar_10.deps.json
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/bin/Debug/net6.0/Seminar_10.runtimeconfig.json
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/bin/Debug/net6.0/Seminar_10.dll
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/bin/Debug/net6.0/Seminar_10.pdb
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/obj/Debug/net6.0/Seminar_10.csproj.AssemblyReference.cache
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/obj/Debug/net6.0/Seminar_10.GeneratedMSBuildEditorConfig.editorconfig
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/obj/Debug/net6.0/Seminar_10.AssemblyInfoInputs.cache
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/obj/Debug/net6.0/Seminar_10.AssemblyInfo.cs
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/obj/Debug/net6.0/Seminar_10.csproj.CoreCompileInputs.cache
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/obj/Debug/net6.0/Seminar_10.dll
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/obj/Debug/net6.0/refint/Seminar_10.dll
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/obj/Debug/net6.0/Seminar_10.pdb
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/obj/Debug/net6.0/Seminar_10.genruntimeconfig.cache
+/Users/julialomako/Desktop/DZ3/Zadachi_003/DZ_005/Zadachi_005/Seminars_C#_C_Sharp/Seminar_10/obj/Debug/net6.0/ref/Seminar_10.dll
